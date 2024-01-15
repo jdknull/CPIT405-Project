@@ -1,0 +1,96 @@
+.for_table{
+    display: flex;
+}
+
+.view_one{
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    right: 15px;
+ 
+}
+tr , td{
+    border: 1px solid black;
+    height: 100px;
+}
+
+
+.id_one{
+    width: 80px;
+    text-align: center;
+    
+}
+
+.title{
+    max-width: 250px;
+    text-align: center;
+}
+
+.inventors{
+    text-align: center;
+}
+
+.aff{
+    text-align: center;
+}
+
+.date{
+    text-align: center;
+}
+
+.area{
+    text-align: center;
+    width: 120px;
+}
+
+th{
+    background-color: rgb(98, 141, 34);
+    padding: 5px 15px 15px 15px;
+    border: 1px solid black;
+}
+
+.action{
+    width: 170px;
+}
+
+.btn_one {
+    background-color: rgb(131, 191, 199);
+    cursor: pointer;
+    border-radius: 40%;
+    margin-left: 10px;
+    padding: 15px;
+    
+}
+
+.btn_two {
+    background-color: rgb(192, 27, 27);
+    cursor: pointer;
+    border-radius: 40%;
+    margin-left: 20px;
+    padding: 15px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+select , option{
+    padding: 6px;
+}
+
+input[type="submit"]{
+    width: 200px;
+    padding: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input[type="text" ],input[type="number"]{
+    width: 250px;
+    padding: 10px;
+    margin-left: 20px;
+}

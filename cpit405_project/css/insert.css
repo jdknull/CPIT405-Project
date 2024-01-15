@@ -1,0 +1,74 @@
+.container_form{
+    display: flex;
+    width: 100%;
+}
+.insert{
+    width: 75%;
+    background-color: lightgrey;
+    position: absolute;
+    top: 140px;
+    left: 15%;
+    height: 700px;
+
+}
+
+.insert h1{
+    font-size: 40px;
+    position: absolute;
+    left: 60px;
+}
+
+.id_insert{
+    margin-top: 150px;
+    padding: 8px;
+    margin-left:105px;
+    width: 300px;
+}  
+
+input{
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+input:focus{
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}
+
+
+
+
+.name_insert , .affiliation_insert , .date_insert , .area_insert ,.title_insert{
+    margin-top: 5px;
+    padding: 8px;
+    width: 300px;
+}
+
+.submit{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 270px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: green;
+    cursor: pointer;
+}
+
+.cancel{
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 30px;
+        width: 200px;
+        margin-left: 50px;
+        border: 2px solid black;
+        background-color:  rgb(192, 27, 27);
+    cursor: pointer;
+}
+
+
+label{
+    margin-left: 10px;
+}
